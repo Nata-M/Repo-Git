@@ -20,6 +20,7 @@ a {
     /* position: fixed; */
     height: 67px;
     width: 100%;
+    display: flex;
     border: 1px solid #eaecee;
     background-color: #f2f2f2;
 }
@@ -27,7 +28,7 @@ a {
     display: flex;
 }
 .headermargin {
-    margin: 0 15%;
+    margin: auto;
 }
 li {
     padding: 1.8em 0.8em;
