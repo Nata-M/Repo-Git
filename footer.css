@@ -1,0 +1,132 @@
+.footer- {
+    width: 100%;
+    height: 67px;
+    background-color: rgb(27, 135, 236);
+    margin: 20px 0 0;
+}
+.footer-:hover {
+    cursor: pointer;
+}
+.social-networks {
+    padding: 20px 0;
+    font-size: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 930px;
+    margin: auto;
+    color: white;
+    word-spacing: 5px;
+}
+.footer-img-gallery {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 280px;
+}
+.img-item {
+    width: 20%;
+    height: 100%;
+
+}
+.img-item:hover {
+    filter: brightness(30%);
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+.footer-text {
+    width: 100%;
+    height: 350px;
+    background-color: rgb(110, 107, 107);
+}
+.footer-margin {
+    width: 950px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.footer-column {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-column-2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.p-footer {
+    color: white;
+    font-size: 15px;
+    text-indent: 0px;
+    margin-top: 10px;
+}
+ h3 {
+    color: white;
+    font-size: 20px;
+    margin-left: 3px;
+    margin-top: 40px;
+} 
+.footer-image {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    margin-bottom: 80px;
+}
+.abc {
+    width: 30%;
+}
+.about-us, .p-footer {
+    width: 70%;
+    color: white;
+    margin-left: 3px;
+}
+.link {
+    text-decoration: underline;
+    color: rgb(181, 220, 231);
+
+}
+.input {
+    margin-top: 15px;
+    width: 250px; 
+    height: 40px; 
+    border: 1px solid white; 
+    background-color: rgb(110, 107, 107); 
+    padding: 5px;
+}
+input::placeholder{
+    color: rgb(250, 245, 245);
+  }
+.input:hover {
+    border: 3px solid white;
+}
+.btn {
+    margin-top: 10px;
+    width: 250px; 
+    height: 40px;
+    background-color: rgb(27, 135, 236);
+    border: none;
+    color: white;
+    text-align: center;
+}
+.btn:hover {
+    background-color: rgb(171, 204, 235);
+    transition-duration: 0.7s;
+}
+.icons {
+    color: white;
+    word-spacing: 13px;
+    margin-top: 40px;
+    font-size: 12px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.copy {
+    color: white;
+    font-size: 13px;
+    display: inline;
+}
