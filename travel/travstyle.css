@@ -17,12 +17,13 @@ a {
     color:#5e5e5e;
 }
 .headerstyle {
-    /* position: fixed; */
+    position: fixed;
     height: 67px;
     width: 100%;
     display: flex;
     border: 1px solid #eaecee;
     background-color: #f2f2f2;
+    overflow: hidden;
 }
 .flex{
     display: flex;
