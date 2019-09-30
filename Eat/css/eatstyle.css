@@ -17,7 +17,7 @@ a {
     color:#5e5e5e;
 }
 .headerstyle {
-    position: fixed;
+    /* position: fixed; */
     height: 67px;
     width: 100%;
     display: flex;
